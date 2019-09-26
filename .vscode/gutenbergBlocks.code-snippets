@@ -1,0 +1,216 @@
+{
+	"WordPress 5 Paragraph": {
+		"prefix": "wpparagraph",
+		"body": [
+			"<!-- wp:paragraph -->",
+			"<p>$1</p>",
+			"<!-- /wp:paragraph -->"
+		],
+		"description": "WP5 Paragraph"
+	},
+
+	"WordPress 5 Heading": {
+		"prefix": "wpheading",
+		"body": [
+			"<!-- wp:heading {\"level\":${1:2-6}} -->",
+			"<h${1:2-6}>$2</h${1:2-6}>",
+			"<!-- /wp:heading -->"
+		],
+		"description": "WP5 Header"
+	},
+
+	"WordPress 5 HTML": {
+		"prefix": "wphtml",
+		"body": [
+			"<!-- wp:html -->",
+			"$1",
+			"<!-- /wp:html -->"
+		],
+		"description": "WP5 HTML"
+	},
+
+	"WordPress 5 UL": {
+		"prefix": "wpul",
+		"body": [
+			"<!-- wp:list -->",
+			"<ul>",
+			"  <li>$1</li>",
+			"</ul>",
+			"<!-- /wp:list -->"
+		],
+		"description": "WP5 Unordered List"
+	},
+
+	"WordPress 5 OL": {
+		"prefix": "wpol",
+		"body": [
+			"<!-- wp:list {\"ordered\":true} -->",
+			"<ol>",
+			"  <li>$1</li>",
+      "</ol>",
+      "<!-- wp:list -->"
+		],
+		"description": "WP5 Ordered List"
+	},
+
+	"WordPress 5 DL": {
+		"prefix": "wpdl",
+		"body": [
+			"<!-- wp:html -->",
+			"<dl>",
+			" <dd>$1</dd>",
+			"   <dt>$2</dt>",
+			"</dl>",
+			"<!-- /wp:html --."
+		],
+		"description": "WP5 Definition List"
+  },
+  
+  "WordPress 5 Quote": {
+    "prefix": "wpquote",
+    "body": [
+      "<!-- wp:quote -->",
+      "<blockquote class=\"wp-block-quote\">",
+      "  <p>$1</p>",
+      "  <cite>$2</cite>",
+      "</blockquote>",
+      "<!-- /wp:quote -->"
+    ],
+    "description": "WP5 Quote"
+  },
+
+  "WordPress 5 Code": {
+    "prefix": "wpcode",
+    "body": [
+      "<!-- wp:code -->",
+      "<pre class=\"wp-block-code\">",
+      "<code>$1</code>",
+      "</pre>",
+      "<!-- /wp:code -->"
+    ],
+    "description": "WP5 Code"
+  },
+
+  "WordPress 5 Preformatted": {
+    "prefix": "wppre",
+    "body": [
+      "<!-- wp:preformatted -->",
+      "<pre class=\"wp-block-preformatted\">",
+      "  <code>$1</code>",
+      "</pre>",
+      "<!-- /wp:preformatted -->"
+    ],
+    "description": "WP5 Preformatted"
+  },
+
+  "WordPress 5 Pull Quote": {
+    "prefix": [
+      "wppullquote",
+      "wppq"
+    ],
+    "body": [
+      "<!-- wp:pullquote -->",
+      "<figure class=\"wp-block-pullquote\">",
+      "  <blockquote>",
+      "    <p>$1</p>",
+      "  </blockquote>",
+      "</figure>",
+      "<!-- /wp:pullquote -->"
+    ],
+    "description": "WP5 Pull Quote"
+  },
+
+  "WordPress 5 Table": {
+    "prefix": "wptable",
+    "body": [
+      "<!-- wp:table -->",
+      "<table class=\"wp-block-table\">",
+      "  ${1:Your normal table stuff here}",
+      "</table>",
+      "<!-- /wp:table -->"
+    ],
+    "description": "WP5 Table"
+  },
+
+  "WordPress 5 Verse": {
+    "prefix": "wpverse",
+    "body": [
+      "<!-- wp:verse -->",
+      "<pre class=\"wp-block-verse\">$1</pre>",
+      "<!-- /wp:verse -->"
+    ],
+    "description": "WP5 Verse"
+  },
+
+  "WordPress 5 Button": {
+    "prefix": "wpbutton",
+    "body": [
+      "<!-- wp:button -->",
+      "<div class=\"wp-block-button\">",
+      "  <a class=\"wp-block-button__link\">${1:text}</a>",
+      "</div>",
+      "<!-- /wp:button -->"
+    ],
+    "description": "WP5 Button"
+  },
+
+  "WordPress 5 More": {
+    "prefix": "wpmore",
+    "body": [
+      "<!-- wp:more -->",
+      "<!-- more -->",
+      "<!-- /wp:more -->"
+    ],
+    "description": "WP5 More"
+  },
+
+  "WordPress 5 Page Break": {
+    "prefix": [
+      "wppagebreak",
+      "wppb",
+    ],
+    "body": [
+      "<!-- wp:nextpage -->",
+      "<!-- nextpage -->",
+      "<!-- /wp:nextpage -->"
+    ],
+    "description": "WP5 Page Break"
+  },
+
+  "WordPress 5 Separator": {
+    "prefix": [
+      "wpseparator",
+      "wphr"
+    ],
+    "body": [
+      "<!-- wp:separator -->",
+      "<hr class=\"wp-block-separator\"/>",
+      "<!-- /wp:separator -->"
+    ],
+    "description": "WP5 Separator"
+  },
+
+  "WordPress 5 Archives": {
+    "prefix": "wparchives",
+    "body": "<!-- wp:archives /-->",
+    "description": "WP5 Archives"
+  },
+
+  "WordPress 5 Categories": {
+    "prefix": "wpcategories",
+    "body": "<!-- wp:categories /-->",
+    "description": "WP5 Categories",
+  },
+
+  "WordPress 5 Latest Comments": {
+    "prefix": "wpcomments",
+    "body": "<!-- wp:latest-comments /-->",
+    "description": "WP5 Latest Comments"
+  },
+
+  "WordPress 5 Latest Posts": {
+    "prefix": "wpposts",
+    "body": "<!-- wp:latest-posts /-->",
+    "description": "WP5 Latest Posts"
+  }
+}
