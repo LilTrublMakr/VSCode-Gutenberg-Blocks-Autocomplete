@@ -1,2 +1,8 @@
 # VSCode-Gutenberg-Blocks-Autocomplete
-Autocompletion for WordPress' Gutenberg Blocks.
+
+Place the `.vscode` folder in your project folder to use it in your project.
+
+## Changelog
+
+25 Sept. 19
+-Initial release
